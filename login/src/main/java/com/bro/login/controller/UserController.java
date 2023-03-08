@@ -26,7 +26,7 @@ public class UserController {
 		boolean res =  userDao.validateUser(user);
 		if(res==true)
 		{
-			return "Login successfull..";
+			return "Login successfully done..";
 		}
 		return "Invalid username or password..";
 	}
