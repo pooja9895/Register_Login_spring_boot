@@ -12,7 +12,7 @@ import com.bro.login.dto.User;
 
 @RestController
 public class UserController {
-		
+	// autowiring
 	@Autowired
 	UserDao userDao;
 	
